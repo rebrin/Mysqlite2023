@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         })
 
+//        binding.beliminar.setOnClickListener({
+//            val intent=Intent(applicationContext,Elimination::class.java)
+//            startActivity(intent)
+//        })
+
     }
 
     fun guardar(view:View){
